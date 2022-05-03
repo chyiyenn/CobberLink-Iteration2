@@ -1,0 +1,689 @@
+# Translation of Plugins - Quiz Cat &#8211; WordPress Quiz Plugin - Development (trunk) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Quiz Cat &#8211; WordPress Quiz Plugin - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-15 08:49:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Quiz Cat &#8211; WordPress Quiz Plugin - Development (trunk)\n"
+
+#: quizcat.php:141
+msgid "If you're upgrading to Quiz Cat Premium and have questions or need help, click <a href=https://fatcatapps.com/article-categories/gen-getting-started/ target=\"_blank\">here</a></b>"
+msgstr "如果你升级到Quiz Cat Premium，有问题或需要帮助，点击这里"
+
+#: includes/editor/sidebar.php:39
+msgid "Modify Your Quiz Appearance"
+msgstr "修改你的Quiz 外观"
+
+#: includes/editor/sidebar.php:33
+msgid "Assign Points With Weighted Quizzes"
+msgstr "用加权测验分配分数"
+
+#: includes/editor/editor.php:459
+msgid "There are no right or wrong answers."
+msgstr "没有正确或者错误的答案"
+
+#: includes/editor/editor.php:462
+msgid "Which WordPress host is right for you?"
+msgstr "哪一个WordPress合适你？"
+
+#: includes/editor/editor.php:465 includes/editor/editor.php:481
+msgid "Get Quiz Cat Premium"
+msgstr "获得Quize Cat 高级版"
+
+#: includes/editor/editor.php:467
+msgid "Build a Personality Type Quiz"
+msgstr "构建一个个性化的Type Quiz"
+
+#: includes/editor/editor.php:461
+msgid "Which Star Wars character are you?"
+msgstr "哪一个Star Wars 角色是你？"
+
+#: includes/editor/editor.php:483
+msgid "Build a Weighted Answers Quiz"
+msgstr "构建一个Weighted Answers Quiz"
+
+#: includes/editor/editor.php:478
+msgid "How adventurous are you?"
+msgstr "你有多爱冒险?"
+
+#: includes/editor/editor.php:473
+msgid "Weighted Answers"
+msgstr "加权的答案"
+
+#: includes/editor/editor.php:477
+msgid "How healthy is your diet?"
+msgstr "你的饮食健康吗?"
+
+#: includes/editor/editor.php:475
+msgid "The more points someone scores, the better their result."
+msgstr "得分越多，他们的成绩就越好。"
+
+#: includes/editor/editor.php:474
+msgid "Assign points to each answer."
+msgstr "给每个答案打分。"
+
+#: includes/editor/editor.php:73
+msgid "Appearance"
+msgstr "外观"
+
+#: includes/editor/editor.php:90 includes/post-type.php:86
+msgid "Quiz Type"
+msgstr "测试类型"
+
+#: includes/editor/editor.php:440
+msgid "Choose your quiz type"
+msgstr "选择你的习题类型"
+
+#: includes/editor/editor.php:445
+msgid "Multiple Choice"
+msgstr "多种选择"
+
+#: includes/editor/editor.php:447
+msgid "Each question has one correct answer."
+msgstr "每个问题都有一个正确的答案。"
+
+#: includes/editor/editor.php:448 includes/editor/editor.php:460
+#: includes/editor/editor.php:476
+msgid "e.g.:"
+msgstr "e.g.:"
+
+#: includes/editor/editor.php:450
+msgid "Can you pass a U.S. citizenship test?"
+msgstr "你是否可以通过美国公民测试？"
+
+#: includes/editor/editor.php:449
+msgid "How much do you know about Star Wars?"
+msgstr "你对于Star Wars 知道多少？"
+
+#: includes/editor/editor.php:457
+msgid "Personality Type"
+msgstr "人格类型"
+
+#: includes/editor/editor.php:452
+msgid "Build a Multiple Choice Quiz"
+msgstr "构建一个多选题"
+
+#: includes/editor/editor.php:446
+msgid "Test a person's knowledge."
+msgstr "测试个人知识"
+
+#: includes/editor/editor.php:458
+msgid "Determine a person's personality or preference."
+msgstr "确定一个人的个性和偏好"
+
+#: includes/post-type.php:141
+msgid "Maybe later"
+msgstr "可能之后"
+
+#: includes/editor/editor.php:677
+msgid "Fixed Answer Order"
+msgstr "修复答案订单"
+
+#: includes/editor/editor.php:677
+msgid "Best used for True/False or Yes/No quizzes. If enabled, manually drag and drop the correct answer into the desired position in the Editor tab."
+msgstr "最好用于对/错或是/否测验。如果启用，请手动将正确的答案拖放到编辑器选项卡中所需的位置。"
+
+#: includes/post-type.php:142
+msgid "No thank you"
+msgstr "不，感谢你"
+
+#: includes/post-type.php:140
+msgid "Leave review"
+msgstr "留下评论"
+
+#: includes/post-type.php:139
+msgid "Hi! You've been using Quiz Cat for a while now, so who better to ask for a review than you? Would you please mind leaving us one? It really helps us a lot!"
+msgstr "这就跟你问声好！你使用Quiz Cat已经有一段时间了，所以还有谁比你更适合来询问评论呢?你能给我们留一个吗?它真的帮了我们很多!"
+
+#: includes/post-type.php:233 includes/post-type.php:282
+msgid "Copy"
+msgstr "复制"
+
+#: includes/editor/editor.php:627
+msgid "Auto Start Quiz"
+msgstr "自动开始考试"
+
+#: includes/editor/editor.php:585
+msgid "Disable Auto Scrolling"
+msgstr "禁用自动滚动"
+
+#: includes/block.php:76
+msgid "Click here and select a quiz from the menu above."
+msgstr "单击此处，然后从上面的菜单中选择一个测验。"
+
+#: includes/block.php:56
+msgid "(no title)"
+msgstr "(无标题)"
+
+#: quizcat.php:145
+msgid "Skip"
+msgstr "跳过"
+
+#: quizcat.php:146
+msgid "Send Feedback"
+msgstr "发送反馈"
+
+#: quizcat.php:137
+msgid "I have a quick question that I hope you’ll answer to help us make Quiz Cat better: what made you deactivate?"
+msgstr "我有一个简短的问题，希望您能回答以帮助我们使Quiz Cat变得更好：是什么使您停用了？"
+
+#: quizcat.php:139
+msgid "You can leave me a message below. I’d really appreciate it."
+msgstr "您可以在下面给我留言。 我真的很感激。"
+
+#: quizcat.php:143
+msgid "What made you deactivate?"
+msgstr "让您停用的原因？"
+
+#: quizcat.php:135
+msgid "Hi, this is David, the creator of Quiz Cat. Thanks so much for giving my plugin a try. I’m sorry that you didn’t love it."
+msgstr "嗨，我是Quiz Cat的创建者David。 非常感谢您尝试我的插件。 很抱歉您不喜欢它。"
+
+#: quizcat.php:88
+msgid "Tweet"
+msgstr "Tweet"
+
+#: quizcat.php:134
+msgid "Sorry to see you go"
+msgstr "很遗憾与您分别"
+
+#: quizcat.php:87
+msgid "Share"
+msgstr "分享"
+
+#: quizcat.php:89
+msgid "Pin"
+msgstr "Pin"
+
+#: includes/editor/editor.php:645 includes/editor/editor.php:652
+msgid "Show Result"
+msgstr "显示结果"
+
+#: includes/editor/editor.php:648 includes/editor/editor.php:655
+msgid "Redirect to URL"
+msgstr "重新定位到URL"
+
+#: includes/functions.php:138
+msgid "OK"
+msgstr "好"
+
+#: includes/editor/editor.php:395 includes/functions.php:108
+msgid "Loading..."
+msgstr "加载..."
+
+#: includes/functions.php:137
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/editor/editor.php:377
+msgid "http://mycoolsite.com/grumpy-cat"
+msgstr "http://mycoolsite.com/grumpy-cat"
+
+#: includes/editor/editor.php:285
+msgid "Text"
+msgstr "文本"
+
+#: includes/editor/editor.php:613
+msgid "Show an explanation or reasoning why an answer is correct."
+msgstr "显示答案正确的解释或理由。"
+
+#: includes/editor/editor.php:391
+msgid "Select Interest Groups (Optional)"
+msgstr "选择兴趣组（可选）"
+
+#: includes/editor/editor.php:376
+msgid "Redirect URL"
+msgstr "重定向网址"
+
+#: includes/editor/editor.php:386
+msgid "Interest Groups"
+msgstr "兴趣组"
+
+#: includes/editor/editor.php:126
+msgid "General"
+msgstr "常规"
+
+#: includes/editor/editor.php:291 includes/editor/editor.php:292
+msgid "Explanation"
+msgstr "解释"
+
+#: includes/editor/editor.php:613
+msgid "Enable Explanations"
+msgstr "启用解释"
+
+#: includes/editor/editor.php:639
+msgid "Choose to show a result panel at the end of the quiz, or redirect to a new page when a user completes the quiz."
+msgstr "选择在测验末尾显示结果面板，或者在用户完成测验后重定向到新页面。"
+
+#: includes/editor/editor.php:386
+msgid "If you use MailChimp Groups opt-in feature, select one or more interest groups quiz takers should be added to.  Optional."
+msgstr "如果您使用 MailChimp Groups 选择加入功能，请选择一个或多个应将测验参加者添加到的兴趣组。可选的。"
+
+#: includes/upgrade.php:6 includes/upgrade.php:7
+msgid "Upgrade to Premium"
+msgstr "升级至 Premium版"
+
+#: includes/editor/sidebar.php:37
+msgid "Quiz Analytics & Insights"
+msgstr "测验分析与见解"
+
+#: includes/editor/sidebar.php:32
+msgid "Build Engaging Personality Quizzes"
+msgstr "建立引人入胜的个性测验"
+
+#: includes/editor/sidebar.php:29
+msgid "Build Awesome Quizzes With Quiz Cat Premium"
+msgstr "用Quiz Cat Premium构建出色的小测验"
+
+#: includes/editor/sidebar.php:35
+msgid "Boost Social Shares"
+msgstr "提升社交分享"
+
+#: includes/editor/sidebar.php:38
+msgid "Full Customization Settings"
+msgstr "完全自定义设置"
+
+#: includes/editor/sidebar.php:36
+msgid "Get Leads & Email Subscribers"
+msgstr "获取潜在客户和电子邮件订阅者"
+
+#: includes/editor/sidebar.php:7
+msgid "Level Up Your Quiz"
+msgstr "升级测验"
+
+#: includes/editor/editor.php:70
+msgid "Editor"
+msgstr "编辑器"
+
+#: quizcat.php:85
+msgid "Your Name"
+msgstr "你的名字"
+
+#: quizcat.php:84
+msgid "Skip this step"
+msgstr "跳过这一步"
+
+#: includes/editor/editor.php:688
+msgid "Show \"Restart Quiz\" Button"
+msgstr "显示“重启测验”按钮"
+
+#: includes/editor/editor.php:248
+msgid "Add Answer"
+msgstr "添加回答"
+
+#: quizcat.php:86
+msgid "Your Email"
+msgstr "您的电子邮件"
+
+#: includes/editor/sidebar.php:44
+msgid "Upgrade Now"
+msgstr "现在升级"
+
+#: quizcat.php:82
+msgid "SHARE YOUR RESULTS"
+msgstr "分享你的结果"
+
+#: quizcat.php:83
+msgid "I got"
+msgstr "我得到"
+
+#: includes/editor/editor.php:666
+msgid "Shuffle Question Order"
+msgstr "随机问题顺序"
+
+#: includes/editor/editor.php:666
+msgid "Shuffle or randomize the order of questions each time someone takes your quiz."
+msgstr "每当有人参加您的测验时，请随机打乱排列问题的顺序。"
+
+#. Plugin Name of the plugin
+msgid "Quiz Cat Free"
+msgstr "Quiz Cat Free"
+
+#: includes/editor/sidebar.php:40
+msgid "Priority Email Support"
+msgstr "优先电子邮件支持"
+
+#: includes/editor/editor.php:577
+msgid "Paste the shortcode in to a post or page to embed this quiz."
+msgstr "将简码粘贴到文章或页面中以嵌入此测验。"
+
+#: includes/editor/editor.php:599
+msgid "Hide Answers Until End of Quiz"
+msgstr "隐藏答案，直到测验结束"
+
+#: includes/editor/editor.php:266
+msgid "e.g. Yes"
+msgstr "例如 是"
+
+#: includes/editor/editor.php:266
+msgid "e.g. No"
+msgstr "例如 没有"
+
+#: includes/editor/editor.php:237
+msgid "e.g. Can cats fly?"
+msgstr "例如 猫会飞吗？"
+
+#: includes/functions.php:35
+msgid "Adds an image (optional).  For best results, use images at least 250px wide and use the same image resolution for each image you add to an answer."
+msgstr "添加图像（可选）。 为了获得最佳结果，请使用宽度至少为250px的图像，并对添加到答案中的每个图像使用相同的图像分辨率。"
+
+#: includes/editor/editor.php:175
+msgid "Add your questions to ask and the possible responses. Drag to re-order."
+msgstr "添加您的问题和可能的答复。 拖动重新排序。"
+
+#: includes/editor/editor.php:326
+msgid "Add a new Result"
+msgstr "添加新结果"
+
+#: includes/editor/editor.php:199
+msgid "Add a new Question"
+msgstr "添加新问题"
+
+#: includes/editor/editor.php:117 includes/editor/editor.php:639
+msgid "Results"
+msgstr "结果"
+
+#: includes/editor/editor.php:158 includes/editor/editor.php:236
+#: includes/editor/editor.php:371
+msgid "Description"
+msgstr "说明"
+
+#: includes/functions.php:35
+msgid "Add Image"
+msgstr "添加图像"
+
+#: includes/editor/sidebar.php:16
+msgid "Quick Links"
+msgstr "快速链接"
+
+#: includes/editor/sidebar.php:58
+msgid "Problems or Suggestions? Get help here."
+msgstr "有问题或建议吗？ 在这里获得帮助。"
+
+#: includes/editor/sidebar.php:57
+msgid "Need help getting started? Watch a video tutorial."
+msgstr "需要入门帮助吗？ 观看视频教程。"
+
+#: includes/editor/sidebar.php:59
+msgid "Like this plugin?  Please leave a review."
+msgstr "喜欢这个插件？ 请留下评论。"
+
+#: includes/editor/editor.php:49
+msgid "Save & Preview"
+msgstr "保存并预览"
+
+#: includes/editor/editor.php:364
+msgid "Title"
+msgstr "标题"
+
+#: quizcat.php:111
+msgid "Support"
+msgstr "技术支持"
+
+#: quizcat.php:90
+msgid "Email"
+msgstr "电子邮件"
+
+#: quizcat.php:79
+msgid "Your Answers"
+msgstr "你的选项"
+
+#: quizcat.php:73
+msgid "Your answer:"
+msgstr "你的选项"
+
+#: quizcat.php:77
+msgid "You got"
+msgstr "你得到"
+
+#: quizcat.php:72
+msgid "Wrong!"
+msgstr "答错了！"
+
+#: includes/editor/editor.php:274
+msgid "Wrong Answer"
+msgstr "错误选项"
+
+#: includes/editor/editor.php:45
+msgid "Unused"
+msgstr "未使用"
+
+#: includes/editor/editor.php:99
+msgid "This Quiz"
+msgstr "这个测试"
+
+#: quizcat.php:80
+msgid "Start Quiz"
+msgstr "开始测试"
+
+#: includes/editor/editor.php:44
+msgid "show"
+msgstr "显示"
+
+#: includes/editor/editor.php:71
+msgid "Settings"
+msgstr "设置"
+
+#: includes/editor/editor.php:48
+msgid "Save"
+msgstr "保存"
+
+#: includes/functions.php:43 includes/functions.php:46
+msgid "Remove"
+msgstr "移除"
+
+#: includes/editor/editor.php:108
+msgid "Questions"
+msgstr "问题"
+
+#: includes/editor/editor.php:47 includes/editor/editor.php:226 quizcat.php:75
+msgid "Question"
+msgstr "问题"
+
+#: includes/editor/editor.php:46
+msgid "Points"
+msgstr "得分"
+
+#: quizcat.php:78
+msgid "out of"
+msgstr "总共"
+
+#: quizcat.php:76
+msgid "Next"
+msgstr "下一个"
+
+#: quizcat.php:71
+msgid "Correct!"
+msgstr "答对啦！"
+
+#: quizcat.php:74
+msgid "Correct answer:"
+msgstr "正确选项"
+
+#: includes/editor/editor.php:272
+msgid "Correct Answer"
+msgstr "正确选项"
+
+#: includes/functions.php:42 includes/functions.php:45
+msgid "Change"
+msgstr "改变"
+
+#: includes/editor/editor.php:199 includes/editor/editor.php:326
+msgid "Add"
+msgstr "添加"
+
+#. Plugin URI of the plugin
+msgid "https://fatcatapps.com/quiz-cat"
+msgstr "https://fatcatapps.com/quiz-cat"
+
+#. Author URI of the plugin
+msgid "https://fatcatapps.com/"
+msgstr "https://fatcatapps.com/"
+
+#: includes/post-type.php:17
+msgctxt "quiz-cat"
+msgid "New Quiz"
+msgstr "新测试"
+
+#: includes/post-type.php:18
+msgctxt "quiz-cat"
+msgid "View Quiz"
+msgstr "查看测试"
+
+#: includes/editor/editor.php:577 includes/post-type.php:84
+msgid "Shortcode"
+msgstr "短代码"
+
+#: includes/editor/editor.php:42
+msgid "Select Image"
+msgstr "选择图像"
+
+#: includes/post-type.php:19
+msgctxt "quiz-cat"
+msgid "Search Quizzes"
+msgstr "搜索测验"
+
+#: quizcat.php:81
+msgid "Retake Quiz"
+msgstr "重新测试"
+
+#: includes/editor/editor.php:363
+msgid "Result Title"
+msgstr "结果标题"
+
+#: includes/editor/editor.php:43
+msgid "remove"
+msgstr "移除"
+
+#: includes/post-type.php:11
+msgctxt "quiz-cat"
+msgid "Quizzes"
+msgstr "测验"
+
+#: includes/post-type.php:58 includes/post-type.php:59
+#: includes/post-type.php:61
+msgid "Quiz updated."
+msgstr "测验已更新。"
+
+#: includes/post-type.php:66
+msgid "Quiz submitted."
+msgstr "测验已提交。"
+
+#: includes/post-type.php:68
+msgid "Quiz scheduled for: <strong>%1$s</strong>."
+msgstr "测试安排:<strong>%1$s</strong>。"
+
+#: includes/post-type.php:65
+msgid "Quiz saved."
+msgstr "测验已保存。"
+
+#. translators: %s: date and time of the revision
+#: includes/post-type.php:63
+msgid "Quiz restored to revision from %s"
+msgstr "测验已从 %s恢复至修订版本"
+
+#: includes/post-type.php:64
+msgid "Quiz published."
+msgstr "测验已发布。"
+
+#: includes/post-type.php:20
+msgctxt "quiz-cat"
+msgid "Quiz not found"
+msgstr "找不到测验"
+
+#: includes/post-type.php:83
+msgctxt "column name"
+msgid "Quiz Name"
+msgstr "测验名称"
+
+#: includes/post-type.php:72
+msgid "Quiz draft updated."
+msgstr "测验草稿已更新。"
+
+#: includes/post-type.php:60
+msgid "Quiz deleted."
+msgstr "测验已删除。"
+
+#: includes/post-type.php:23
+msgctxt "quiz-cat"
+msgid "Quiz Cat"
+msgstr "Quiz Cat"
+
+#: includes/post-type.php:12
+msgctxt "quiz-cat"
+msgid "Quiz"
+msgstr "测验"
+
+#: includes/post-type.php:22
+msgctxt "quiz-cat"
+msgid "Parent Quiz:"
+msgstr "上级测验:"
+
+#: includes/post-type.php:21
+msgctxt "quiz-cat"
+msgid "No Quizzes found in trash"
+msgstr "回收站中未找到测验"
+
+#: includes/editor/editor.php:51
+msgid "NO"
+msgstr "没有"
+
+#. translators: Publish box date format, see http://php.net/date
+#: includes/post-type.php:70
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/editor/editor.php:162 includes/editor/editor.php:232
+#: includes/editor/editor.php:280 includes/editor/editor.php:367
+msgid "Image"
+msgstr "图像"
+
+#. Author of the plugin
+msgid "Fatcat Apps"
+msgstr "Fatcat Apps"
+
+#: includes/post-type.php:16
+msgctxt "quiz-cat"
+msgid "Edit Quiz"
+msgstr "编辑测验"
+
+#: includes/post-type.php:88
+msgctxt "column name"
+msgid "Date"
+msgstr "日期"
+
+#: includes/editor/editor.php:41
+msgid "Are you sure?"
+msgstr "您确定吗？"
+
+#: includes/post-type.php:14
+msgctxt "quiz-cat"
+msgid "All Quizzes"
+msgstr "所有测验"
+
+#: includes/post-type.php:15
+msgctxt "quiz-cat"
+msgid "Add New Quiz"
+msgstr "添加新测验"
+
+#: includes/post-type.php:13
+msgctxt "quiz-cat"
+msgid "Add New"
+msgstr "添加新"
+
+#: includes/editor/editor.php:40
+msgid "You have entered new data on this page.  If you navigate away from this page without first saving your data, the changes will be lost."
+msgstr "您已在此页面上输入了新数据。 如果您在未先保存数据的情况下离开此页面，则更改将丢失。"
+
+#: includes/editor/editor.php:50
+msgid "YES"
+msgstr "是的"
+
+#: includes/quiz/quiz.php:40 includes/quiz/quiz.php:186 quizcat.php:68
+msgid "No Quiz found"
+msgstr "没有找到测试"

@@ -1,0 +1,1302 @@
+.post-php.post-type-oum-location #location_customfields .inside,
+.post-new-php.post-type-oum-location #location_customfields .inside {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.post-php.post-type-oum-location #location_customfields .inside > .section,
+.post-new-php.post-type-oum-location #location_customfields .inside > .section {
+  padding: 15px 12px;
+  border-top: 1px solid #EEEEEE;
+}
+
+.post-php.post-type-oum-location #location_customfields .inside > .section:first-of-type,
+.post-new-php.post-type-oum-location #location_customfields .inside > .section:first-of-type {
+  border-top: 0;
+}
+
+.post-php.post-type-oum-location label,
+.post-new-php.post-type-oum-location label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.post-php.post-type-oum-location .oum_custom_field_description,
+.post-new-php.post-type-oum-location .oum_custom_field_description {
+  font-style: italic;
+  font-size: 14px;
+  opacity: 0.8;
+  padding: 8px;
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .map-wrap,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .map-wrap {
+  position: relative;
+  width: 50%;
+  padding-top: 30%;
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation input.glass,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation input.glass {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom1 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom1 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: saturate(3);
+          filter: saturate(3);
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: sepia(1) invert(0) saturate(28) hue-rotate(-53deg);
+          filter: sepia(1) invert(0) saturate(28) hue-rotate(-53deg);
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile {
+  -webkit-filter: sepia(0) contrast(1) invert(1) brightness(2);
+          filter: sepia(0) contrast(1) invert(1) brightness(2);
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: sepia(1) invert(1) saturate(100) brightness(1) hue-rotate(-300deg);
+          filter: sepia(1) invert(1) saturate(100) brightness(1) hue-rotate(-300deg);
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .map-wrap #mapGetLocation.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile {
+  -webkit-filter: sepia(0) contrast(1) invert(1) brightness(2);
+          filter: sepia(0) contrast(1) invert(1) brightness(2);
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .input-wrap,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .input-wrap {
+  width: 50%;
+  padding: 0 50px;
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 7%;
+  margin-bottom: 30px;
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint div.hint,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint div.hint {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint .latlng-wrap > div:not(.hint),
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint .latlng-wrap > div:not(.hint) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post-php.post-type-oum-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint .latlng-wrap > div:not(.hint) > div,
+.post-new-php.post-type-oum-location .geo-coordinates-wrap .input-wrap .geo-coordinates-hint .latlng-wrap > div:not(.hint) > div {
+  width: 49%;
+}
+
+@media (max-width: 768px) {
+  .post-php.post-type-oum-location .geo-coordinates-wrap,
+  .post-new-php.post-type-oum-location .geo-coordinates-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .post-php.post-type-oum-location .geo-coordinates-wrap .map-wrap,
+  .post-php.post-type-oum-location .geo-coordinates-wrap .input-wrap,
+  .post-new-php.post-type-oum-location .geo-coordinates-wrap .map-wrap,
+  .post-new-php.post-type-oum-location .geo-coordinates-wrap .input-wrap {
+    width: 100%;
+  }
+  .post-php.post-type-oum-location .geo-coordinates-wrap .input-wrap,
+  .post-new-php.post-type-oum-location .geo-coordinates-wrap .input-wrap {
+    padding: 0;
+  }
+}
+
+.post-php.post-type-oum-location #oum_location_image_preview .remove-upload,
+.post-new-php.post-type-oum-location #oum_location_image_preview .remove-upload {
+  display: none;
+}
+
+.post-php.post-type-oum-location #oum_location_image_preview.has-image,
+.post-new-php.post-type-oum-location #oum_location_image_preview.has-image {
+  width: 400px;
+  height: 200px;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.post-php.post-type-oum-location #oum_location_image_preview.has-image img,
+.post-new-php.post-type-oum-location #oum_location_image_preview.has-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+
+.post-php.post-type-oum-location #oum_location_image_preview.has-image .remove-upload,
+.post-new-php.post-type-oum-location #oum_location_image_preview.has-image .remove-upload {
+  position: absolute;
+  display: block;
+  z-index: 10;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  line-height: 18px;
+  text-align: center;
+  background: indianred;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.post-php.post-type-oum-location #oum_location_image_preview.has-image .remove-upload:hover,
+.post-new-php.post-type-oum-location #oum_location_image_preview.has-image .remove-upload:hover {
+  opacity: 1;
+}
+
+.post-php.post-type-oum-location #oum_location_audio_preview .remove-upload,
+.post-new-php.post-type-oum-location #oum_location_audio_preview .remove-upload {
+  display: none;
+}
+
+.post-php.post-type-oum-location #oum_location_audio_preview.has-audio,
+.post-new-php.post-type-oum-location #oum_location_audio_preview.has-audio {
+  width: 400px;
+  max-width: 100%;
+  margin-top: 15px;
+  margin-left: 3px;
+  position: relative;
+}
+
+.post-php.post-type-oum-location #oum_location_audio_preview.has-audio .remove-upload,
+.post-new-php.post-type-oum-location #oum_location_audio_preview.has-audio .remove-upload {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  right: -30px;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  line-height: 18px;
+  text-align: center;
+  background: indianred;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.post-php.post-type-oum-location #oum_location_audio_preview.has-audio .remove-upload:hover,
+.post-new-php.post-type-oum-location #oum_location_audio_preview.has-audio .remove-upload:hover {
+  opacity: 1;
+}
+
+.post-php.post-type-oum-location .marker_icons,
+.post-new-php.post-type-oum-location .marker_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.post-php.post-type-oum-location .marker_icons label,
+.post-new-php.post-type-oum-location .marker_icons label {
+  width: 25%;
+  overflow: hidden;
+  border: 4px solid lightgrey;
+  margin: 5px;
+  position: relative;
+}
+
+.post-php.post-type-oum-location .marker_icons label input,
+.post-new-php.post-type-oum-location .marker_icons label input {
+  display: none;
+}
+
+.post-php.post-type-oum-location .marker_icons label.checked, .post-php.post-type-oum-location .marker_icons label:not(.pro-only):hover,
+.post-new-php.post-type-oum-location .marker_icons label.checked,
+.post-new-php.post-type-oum-location .marker_icons label:not(.pro-only):hover {
+  border-color: #2271b1;
+}
+
+.post-php.post-type-oum-location .marker_icons label .marker_icon_preview,
+.post-new-php.post-type-oum-location .marker_icons label .marker_icon_preview {
+  height: 40px;
+  margin: 5px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.post-php.post-type-oum-location .marker_icons label .marker_icon_preview[data-style="default"],
+.post-new-php.post-type-oum-location .marker_icons label .marker_icon_preview[data-style="default"] {
+  background-image: url("../src/leaflet/images/marker-icon_default-2x.png");
+}
+
+.post-php.post-type-oum-location .marker_icons label .marker_icon_preview[data-style="custom1"],
+.post-new-php.post-type-oum-location .marker_icons label .marker_icon_preview[data-style="custom1"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom1-2x.png");
+}
+
+.post-php.post-type-oum-location .marker_icons label .marker_icon_preview[data-style="custom2"],
+.post-new-php.post-type-oum-location .marker_icons label .marker_icon_preview[data-style="custom2"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom2-2x.png");
+}
+
+.post-php.post-type-oum-location .marker_icons label .marker_icon_preview[data-style="custom3"],
+.post-new-php.post-type-oum-location .marker_icons label .marker_icon_preview[data-style="custom3"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom3-2x.png");
+}
+
+.post-php.post-type-oum-location .marker_icons label .marker_icon_preview[data-style="custom4"],
+.post-new-php.post-type-oum-location .marker_icons label .marker_icon_preview[data-style="custom4"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom4-2x.png");
+}
+
+.post-php.post-type-oum-location .marker_icons label .marker_icon_preview[data-style="user1"],
+.post-new-php.post-type-oum-location .marker_icons label .marker_icon_preview[data-style="user1"] {
+  background-image: url("../src/leaflet/images/marker-icon_user1-2x.png");
+}
+
+.post-php.post-type-oum-location .marker_icons label .name,
+.post-new-php.post-type-oum-location .marker_icons label .name {
+  text-align: center;
+  padding: 0 5px 5px;
+}
+
+.post-php.post-type-oum-location fieldset,
+.post-new-php.post-type-oum-location fieldset {
+  margin: 0;
+  font-size: 13px;
+  border: none;
+  color: #333;
+  padding: 9px;
+}
+
+.post-php.post-type-oum-location fieldset legend,
+.post-new-php.post-type-oum-location fieldset legend {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-left: -8px;
+}
+
+.post-php.post-type-oum-location fieldset label,
+.post-new-php.post-type-oum-location fieldset label {
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.taxonomy-oum-type .marker_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.taxonomy-oum-type .marker_icons label {
+  width: 50px;
+  height: 82px;
+  overflow: hidden;
+  border: 4px solid white;
+  margin: 5px;
+  position: relative;
+}
+
+.taxonomy-oum-type .marker_icons label input {
+  display: none;
+}
+
+.taxonomy-oum-type .marker_icons label.pro-only {
+  cursor: default;
+  overflow: visible;
+}
+
+.taxonomy-oum-type .marker_icons label.pro-only:before {
+  content: 'PRO';
+  display: inline-block;
+  position: absolute;
+  background: red;
+  color: white;
+  right: 0;
+  top: 0;
+  font-size: 11px;
+  text-align: center;
+  padding: 1px 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.taxonomy-oum-type .marker_icons label.pro-only .oum-gopro-text {
+  position: absolute;
+  top: 15px;
+  right: -130px;
+  width: 115px;
+}
+
+.taxonomy-oum-type .marker_icons label.pro:before {
+  content: 'PRO';
+  display: inline-block;
+  position: absolute;
+  background: red;
+  color: white;
+  right: 0;
+  top: 0;
+  font-size: 11px;
+  text-align: center;
+  padding: 1px 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.taxonomy-oum-type .marker_icons label.checked, .taxonomy-oum-type .marker_icons label:not(.pro-only):hover {
+  border-color: #2271b1;
+}
+
+.taxonomy-oum-type .marker_icons label .marker_icon_preview {
+  width: 50px;
+  height: 82px;
+  background-position: center center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.taxonomy-oum-type .marker_icons label .marker_icon_preview[data-style="default"] {
+  background-image: url("../src/leaflet/images/marker-icon_default-2x.png");
+}
+
+.taxonomy-oum-type .marker_icons label .marker_icon_preview[data-style="custom1"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom1-2x.png");
+}
+
+.taxonomy-oum-type .marker_icons label .marker_icon_preview[data-style="custom2"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom2-2x.png");
+}
+
+.taxonomy-oum-type .marker_icons label .marker_icon_preview[data-style="custom3"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom3-2x.png");
+}
+
+.taxonomy-oum-type .marker_icons label .marker_icon_preview[data-style="custom4"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom4-2x.png");
+}
+
+.taxonomy-oum-type .marker_icons label .marker_icon_preview[data-style="user1"] {
+  background-image: url("../src/leaflet/images/marker-icon_user1-2x.png");
+}
+
+.taxonomy-oum-type .marker_icons label.label_marker_user_icon {
+  width: 170px;
+}
+
+.taxonomy-oum-type .marker_icons label.label_marker_user_icon .icon_upload {
+  position: absolute;
+  width: 115px;
+  right: 3px;
+  top: 62%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.taxonomy-oum-type .marker_icons label.label_marker_user_icon .icon_upload .button {
+  cursor: pointer;
+  line-height: 1.5;
+  padding: 5px;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.taxonomy-oum-type .marker_icons label.label_marker_user_icon .icon_upload .description {
+  font-style: italic;
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard {
+  background: #fff;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #adminmenu li#menu-settings a::after {
+  border-right-color: #26aee7;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap {
+  height: 100%;
+  min-height: 100%;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent {
+  height: 100%;
+  min-height: 100%;
+  padding-left: 0;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody {
+  height: 100%;
+  min-height: 100%;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content {
+  padding: 0;
+  height: 100%;
+  padding-bottom: 0;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content #screen-meta,
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .clear {
+  display: none;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 9%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper .oum-optin-hero {
+  background: url(images/optin-bg-map.jpg) no-repeat center #26aee7;
+  background-size: cover;
+  color: white;
+  width: 100%;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect {
+  width: 100%;
+  max-width: 900px;
+  margin: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-visual {
+  display: none;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-content {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-content > p span {
+  display: block;
+  font-size: 25px;
+  font-weight: 700;
+  color: #23282d;
+  margin-bottom: 20px;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-actions .button {
+  height: 49px;
+  line-height: 49px;
+  padding: 0 20px !important;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-actions .button-primary {
+  margin-right: 15px;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-actions #skip_activation {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  float: none;
+  background: transparent;
+  border-color: transparent;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-actions #skip_activation:hover {
+  border-color: #0071a1;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions {
+  padding: 0 0 30px 0;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions .fs-trigger {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions .fs-trigger:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions ul {
+  display: none;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions ul li {
+  margin-bottom: 0;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions ul li i.dashicons {
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  color: #23282d;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions ul li div {
+  margin-left: 0;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions ul li div span {
+  text-transform: capitalize;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions ul li div p {
+  margin-top: 8px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions ul li:nth-child(1) {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions ul li:nth-child(2) {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions ul li:nth-child(3) {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions ul li:nth-child(4) {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions.fs-open ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(auto, 280px))[2];
+      grid-template-columns: repeat(2, minmax(auto, 280px));
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin: 20px 0 0 0;
+  padding-top: 30px;
+  border-top: 1px dashed #ddd;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions .fs-switch {
+  width: 25px;
+  height: 16px;
+  top: 1px;
+  right: 20px;
+  padding: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  border: 2px solid #555d66;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions .fs-switch .fs-toggle {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  top: 1px;
+  width: 10px;
+  height: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions .fs-switch.fs-off {
+  background: transparent;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions .fs-switch.fs-off .fs-toggle {
+  left: 1px;
+  background: #555d66;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions .fs-switch.fs-on {
+  border-color: #0085ba;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-permissions .fs-switch.fs-on .fs-toggle {
+  left: 10px;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-terms {
+  display: none;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect.require-license-key .fs-license-key-container {
+  width: 100%;
+  margin: 30px 0 0 0;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect.require-license-key .fs-license-key-container input[type=text] {
+  min-height: 49px;
+  padding: 0 12px;
+  line-height: initial;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect.require-license-key .fs-license-key-container .dashicons {
+  top: 17px;
+  right: 10px;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect.require-license-key .fs-license-key-container .show-license-resend-modal {
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect.require-license-key .fs-actions {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect.require-license-key .fs-actions form {
+  width: 100%;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect.require-license-key .fs-actions #license_issues_link {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  text-align: left;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect.require-license-key .fs-permissions p {
+  text-align: left;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect.require-license-key .fs-permissions p:last-of-type {
+  margin-bottom: 0;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect #fs_marketing_optin {
+  border: none;
+  padding: 30px 0;
+  margin: 30px 0 0 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect #fs_marketing_optin.error {
+  background: transparent;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect #fs_marketing_optin .fs-input-label {
+  margin-left: 22px;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-freemium-licensing {
+  border-top: 1px dashed #ddd;
+  padding: 30px 0;
+  background: transparent;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-freemium-licensing p {
+  text-align: left;
+  color: #444;
+}
+
+.settings_page_open_user_map.oum-fs-optin-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .oum-optin-wrapper #fs_connect .fs-freemium-licensing p a {
+  color: #0073aa;
+}
+
+.settings_page_open_user_map .nav-tab-wrapper .nav-tab {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.settings_page_open_user_map .tab-content .tab-pane {
+  display: none;
+  padding: 1rem;
+}
+
+.settings_page_open_user_map .tab-content .tab-pane.active {
+  display: block;
+}
+
+.settings_page_open_user_map .oum_support_hint {
+  opacity: 0.7;
+  margin-left: 5px;
+}
+
+.settings_page_open_user_map .form-table td {
+  vertical-align: top;
+}
+
+.settings_page_open_user_map .oum_2cols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.settings_page_open_user_map .oum_2cols > div {
+  margin-right: 15px;
+}
+
+.settings_page_open_user_map span.description {
+  font-style: italic;
+}
+
+.settings_page_open_user_map .map_styles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.settings_page_open_user_map .map_styles label {
+  width: 208px;
+  height: 208px;
+  overflow: hidden;
+  border: 4px solid white;
+  margin: 5px;
+  position: relative;
+}
+
+.settings_page_open_user_map .map_styles label input {
+  display: none;
+}
+
+.settings_page_open_user_map .map_styles label.pro-only {
+  cursor: default;
+}
+
+.settings_page_open_user_map .map_styles label.pro:before {
+  content: 'PRO';
+  display: inline-block;
+  position: absolute;
+  background: red;
+  color: white;
+  right: 5px;
+  bottom: 5px;
+  padding: 1px 5px;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 1px solid;
+}
+
+.settings_page_open_user_map .map_styles label.checked, .settings_page_open_user_map .map_styles label:not(.pro-only):hover {
+  border-color: #2271b1;
+}
+
+.settings_page_open_user_map .map_styles label .map_style_preview {
+  width: 208px;
+  height: 208px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.settings_page_open_user_map .map_styles label .map_style_preview[data-style="Stamen.TonerLite"] {
+  background-image: url("images/map_style_Stamen.TonerLite.png");
+}
+
+.settings_page_open_user_map .map_styles label .map_style_preview[data-style="Esri.WorldStreetMap"] {
+  background-image: url("images/map_style_Esri.WorldStreetMap.png");
+}
+
+.settings_page_open_user_map .map_styles label .map_style_preview[data-style="OpenStreetMap.Mapnik"] {
+  background-image: url("images/map_style_OpenStreetMap.Mapnik.png");
+}
+
+.settings_page_open_user_map .map_styles label .map_style_preview[data-style="CartoDB.Positron"] {
+  background-image: url("images/map_style_CartoDB.Positron.png");
+}
+
+.settings_page_open_user_map .map_styles label .map_style_preview[data-style="CartoDB.DarkMatter"] {
+  background-image: url("images/map_style_CartoDB.DarkMatter.png");
+}
+
+.settings_page_open_user_map .map_styles label .map_style_preview[data-style="Custom1"] {
+  background-image: url("images/map_style_Custom1.png");
+}
+
+.settings_page_open_user_map .map_styles label .map_style_preview[data-style="Custom2"] {
+  background-image: url("images/map_style_Custom2.png");
+}
+
+.settings_page_open_user_map .map_styles label .map_style_preview[data-style="Custom3"] {
+  background-image: url("images/map_style_Custom3.png");
+}
+
+.settings_page_open_user_map .marker_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.settings_page_open_user_map .marker_icons label {
+  width: 50px;
+  height: 82px;
+  overflow: hidden;
+  border: 4px solid white;
+  margin: 5px;
+  position: relative;
+}
+
+.settings_page_open_user_map .marker_icons label input {
+  display: none;
+}
+
+.settings_page_open_user_map .marker_icons label.pro-only {
+  cursor: default;
+  overflow: visible;
+}
+
+.settings_page_open_user_map .marker_icons label.pro-only:before {
+  content: 'PRO';
+  display: inline-block;
+  position: absolute;
+  background: red;
+  color: white;
+  right: 0;
+  top: 0;
+  font-size: 11px;
+  text-align: center;
+  padding: 1px 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.settings_page_open_user_map .marker_icons label.pro-only .oum-gopro-text {
+  position: absolute;
+  top: 15px;
+  right: -130px;
+  width: 115px;
+}
+
+.settings_page_open_user_map .marker_icons label.pro:before {
+  content: 'PRO';
+  display: inline-block;
+  position: absolute;
+  background: red;
+  color: white;
+  right: 0;
+  top: 0;
+  font-size: 11px;
+  text-align: center;
+  padding: 1px 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.settings_page_open_user_map .marker_icons label.checked, .settings_page_open_user_map .marker_icons label:not(.pro-only):hover {
+  border-color: #2271b1;
+}
+
+.settings_page_open_user_map .marker_icons label .marker_icon_preview {
+  width: 50px;
+  height: 82px;
+  background-position: center center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.settings_page_open_user_map .marker_icons label .marker_icon_preview[data-style="default"] {
+  background-image: url("../src/leaflet/images/marker-icon_default-2x.png");
+}
+
+.settings_page_open_user_map .marker_icons label .marker_icon_preview[data-style="custom1"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom1-2x.png");
+}
+
+.settings_page_open_user_map .marker_icons label .marker_icon_preview[data-style="custom2"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom2-2x.png");
+}
+
+.settings_page_open_user_map .marker_icons label .marker_icon_preview[data-style="custom3"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom3-2x.png");
+}
+
+.settings_page_open_user_map .marker_icons label .marker_icon_preview[data-style="custom4"] {
+  background-image: url("../src/leaflet/images/marker-icon_custom4-2x.png");
+}
+
+.settings_page_open_user_map .marker_icons label .marker_icon_preview[data-style="user1"] {
+  background-image: url("../src/leaflet/images/marker-icon_user1-2x.png");
+}
+
+.settings_page_open_user_map .marker_icons label.label_marker_user_icon {
+  width: 170px;
+}
+
+.settings_page_open_user_map .marker_icons label.label_marker_user_icon .icon_upload {
+  position: absolute;
+  width: 115px;
+  right: 3px;
+  top: 62%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.settings_page_open_user_map .marker_icons label.label_marker_user_icon .icon_upload .button {
+  cursor: pointer;
+  line-height: 1.5;
+  padding: 5px;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.settings_page_open_user_map .marker_icons label.label_marker_user_icon .icon_upload .description {
+  font-style: italic;
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap .map-wrap {
+  position: relative;
+  width: 50%;
+  padding-top: 32.5%;
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap .map-wrap #mapGetInitial {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap .map-wrap #mapGetInitial input.glass {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap .map-wrap #mapGetInitial.map-style_Custom1 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: saturate(3);
+          filter: saturate(3);
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap .map-wrap #mapGetInitial.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: sepia(1) invert(0) saturate(28) hue-rotate(-53deg);
+          filter: sepia(1) invert(0) saturate(28) hue-rotate(-53deg);
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap .map-wrap #mapGetInitial.map-style_Custom2 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile {
+  -webkit-filter: sepia(0) contrast(1) invert(1) brightness(2);
+          filter: sepia(0) contrast(1) invert(1) brightness(2);
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap .map-wrap #mapGetInitial.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:first-of-type .leaflet-tile {
+  -webkit-filter: sepia(1) invert(1) saturate(100) brightness(1) hue-rotate(-300deg);
+          filter: sepia(1) invert(1) saturate(100) brightness(1) hue-rotate(-300deg);
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap .map-wrap #mapGetInitial.map-style_Custom3 .leaflet-tile-pane .leaflet-layer:nth-child(2) .leaflet-tile {
+  -webkit-filter: sepia(0) contrast(1) invert(1) brightness(2);
+          filter: sepia(0) contrast(1) invert(1) brightness(2);
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap .input-wrap {
+  width: 50%;
+  padding: 0 50px;
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap .input-wrap .latlng-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap .input-wrap .latlng-wrap > div input {
+  width: 100%;
+}
+
+.settings_page_open_user_map .geo-coordinates-wrap .input-wrap .geo-coordinates-hint {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: floralwhite;
+}
+
+@media (max-width: 768px) {
+  .settings_page_open_user_map .geo-coordinates-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .settings_page_open_user_map .geo-coordinates-wrap .map-wrap,
+  .settings_page_open_user_map .geo-coordinates-wrap .input-wrap {
+    width: 100%;
+  }
+  .settings_page_open_user_map .geo-coordinates-wrap .input-wrap {
+    padding: 0;
+  }
+}
+
+.settings_page_open_user_map .oum_custom_fields_wrapper table {
+  border-collapse: collapse;
+  border: 1px solid #c3c4c7;
+  margin-bottom: 15px;
+}
+
+.settings_page_open_user_map .oum_custom_fields_wrapper table th,
+.settings_page_open_user_map .oum_custom_fields_wrapper table td {
+  border: 1px solid #c3c4c7;
+  padding: 12px;
+  width: auto;
+  margin: 0;
+}
+
+.settings_page_open_user_map .oum_custom_fields_wrapper table thead tr th {
+  background: #2271b1;
+  color: #fff;
+}
+
+.settings_page_open_user_map .oum_custom_fields_wrapper table tbody tr td .oum-custom-field-allow-empty {
+  display: block;
+  margin-top: 10px;
+}
+
+.settings_page_open_user_map .oum_custom_fields_wrapper table tbody tr td.actions a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.settings_page_open_user_map .oum_custom_fields_wrapper table tbody tr td.actions a.up, .settings_page_open_user_map .oum_custom_fields_wrapper table tbody tr td.actions a.down {
+  color: green;
+}
+
+.settings_page_open_user_map .oum_custom_fields_wrapper table tbody tr td.actions a.remove_button {
+  color: red;
+}
+
+.settings_page_open_user_map input.oum-switch[type="checkbox"] {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  visibility: hidden;
+}
+
+.settings_page_open_user_map input.oum-switch[type="checkbox"] + label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 25px;
+  padding-left: 50px;
+  position: relative;
+  margin-top: -16px;
+}
+
+.settings_page_open_user_map input.oum-switch[type="checkbox"] + label::before {
+  width: 40px;
+  height: 20px;
+  border-radius: 30px;
+  border: 2px solid #ddd;
+  background-color: #eee;
+  content: "";
+  margin-right: 15px;
+  -webkit-transition: background-color 0.5s linear;
+  transition: background-color 0.5s linear;
+  z-index: 5;
+  position: absolute;
+  left: 0px;
+}
+
+.settings_page_open_user_map input.oum-switch[type="checkbox"] + label::after {
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  background-color: #fff;
+  content: "";
+  -webkit-transition: margin 0.1s linear;
+  transition: margin 0.1s linear;
+  -webkit-box-shadow: 0px 0px 5px #aaa;
+          box-shadow: 0px 0px 5px #aaa;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  z-index: 10;
+}
+
+.settings_page_open_user_map input.oum-switch[type="checkbox"]:checked + label::before {
+  background-color: #2271b1;
+}
+
+.settings_page_open_user_map input.oum-switch[type="checkbox"]:checked + label::after {
+  margin: 0 0 0 20px;
+}
+
+.settings_page_open_user_map .oum-pro {
+  display: inline-block;
+  background: red;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  padding: 1px 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.settings_page_open_user_map .oum-gopro-tr td {
+  opacity: 0.65;
+}
+
+.wp-block-open-user-map-map {
+  background: url(images/block-bg.jpg) top center no-repeat;
+  background-size: cover;
+  border: 3px solid white;
+}
+
+.wp-block-open-user-map-map .hint {
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  width: 75%;
+  margin: 10% auto;
+  position: relative;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.wp-block-open-user-map-map .hint .link-oum-settings {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.wp-block-open-user-map-map .hint .link-oum-settings span {
+  margin-right: 3px;
+}
+
+.wp-block-open-user-map-map .hint .custom-settings-label {
+  text-align: left;
+}
+
+.wp-block-open-user-map-map .hint .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: left;
+}
+
+.wp-block-open-user-map-map .hint .flex > div {
+  padding: 10px 10px 10px 0;
+  width: 250px;
+}
+/*# sourceMappingURL=style.css.map */
