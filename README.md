@@ -17,23 +17,29 @@ The purpose of this project is to help Migrant teens who are trying to assimilat
 
 Iteration 1 is mostly informational, and the only true use of a "database" that can encourage users to come back is the ability to look for professional help agencies that help them with their social anxiety or depression. The visualisation includes information such as name of agency, phone number, postcode, and language supported.
 
-# Pages supported for Iteration 1:
+# Pages supported:
 - Home Page
 - About Page
+- Activity Finder
 - Learn the Slang
 - Learn the Culture
 - Learn the Sites
-- Let Us Help
+- Culture Festival Calendar
+- Emergency Help 
 - Agencies
 - Quiz 1 - Slang
 - Quiz 2 - Culture
-- Quiz 3 - Sites
+- Quiz 3 - loneness Test
 - "Under Construction"
 
 Other pages are not available yet even though there may be raised buttons that indicate that the user may enter it. The user will be led to an under construction page.
 
-# Main Plugins used for Iteration 1:
+# Main Plugins used:
 1. Elementor
 2. WPDataAccess
 3. MySQLCharts
 4. PhpMyAdmin plugin
+5. Quiz Cat 
+6. Quiz & Survy Master
+7. Prime Slider
+8. Event Calendar
