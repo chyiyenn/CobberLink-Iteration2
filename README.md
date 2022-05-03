@@ -25,10 +25,18 @@ Iteration 1 is mostly informational, and the only true use of a "database" that 
 - Learn the Sites
 - Let Us Help
 - Agencies
-- Quiz 1 - Slang
+- Quiz 1 - Everyday Object
 - Quiz 2 - Culture
 - Quiz 3 - Sites
 - "Under Construction"
+- Quiz 4 - Loneliness
+- Quiz 5 - Expression
+- Quiz 6 - People
+- QUiz 7 - Strange
+- Quiz 8 - Adjective
+- Quiz 9 - Mature
+- Activity Finder
+- Cultural Festivals
 
 Other pages are not available yet even though there may be raised buttons that indicate that the user may enter it. The user will be led to an under construction page.
 
