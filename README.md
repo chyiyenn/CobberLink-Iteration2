@@ -17,7 +17,7 @@ The purpose of this project is to help Migrant teens who are trying to assimilat
 
 Iteration 1 is mostly informational, and the only true use of a "database" that can encourage users to come back is the ability to look for professional help agencies that help them with their social anxiety or depression. The visualisation includes information such as name of agency, phone number, postcode, and language supported.
 
-# Pages supported for Iteration 1:
+# Pages supported for Iteration 2:
 - Home Page
 - About Page
 - Learn the Slang
@@ -25,9 +25,18 @@ Iteration 1 is mostly informational, and the only true use of a "database" that 
 - Learn the Sites
 - Let Us Help
 - Agencies
+- Cultural Festivals
+- Activity Finder
 - Quiz 1 - Slang
 - Quiz 2 - Culture
 - Quiz 3 - Sites
+- Quiz 4 - Loneliness 
+- QUiz 5 - Slang (Everyday Object)
+- Quiz 6 - Slang (Expressions)
+- Quiz 7 - People
+- Quiz 8 - Adjectives
+- Quiz 9 - Strange
+- Quiz 10 - Mature
 - "Under Construction"
 
 Other pages are not available yet even though there may be raised buttons that indicate that the user may enter it. The user will be led to an under construction page.
